@@ -6,7 +6,7 @@ title: Nerola Gizlilik Politikası
 
 [English version](./privacy)
 
-Yürürlük tarihi: 15 Eylül 2026
+Yürürlük tarihi: 23 Eylül 2026
 Veri sorumlusu: Tolga Sayan (bireysel geliştirici; App Store satıcı adı)
 İletişim: tolgasayan@icloud.com
 
@@ -54,7 +54,9 @@ Nerola reklam göstermez, reklam ağlarıyla veri paylaşmaz ve sizi uygulamalar
 
 **Sürüm 1.0:** Uygulamanın kendi kullanım analitiği veya çökme raporlama hizmeti yoktur; oyun içi davranışınız, cevaplarınız veya sesiniz hiçbir analitik servise gönderilmez. Tek istisna 4. bölümdeki satın alma sağlayıcılarıdır: satın alma ve teklif ekranı verileri App Store gizlilik beyanında "Analitik" amacıyla da bildirilir.
 
-**Sürüm 1.1'den itibaren — kullanım analitiği (yalnız izninizle):** Nerola, uygulamayı geliştirmek için PostHog (PostHog Inc., Avrupa Birliği'nde barındırılan proje) ile ürün analitiği toplayabilir. Bu yalnız uygulama içindeki "Nerola'yı geliştirmemize yardım et" ekranında **Kullanım verisi paylaş** seçeneğini onaylamanız hâlinde başlar; karar verilene kadar ve **Paylaşma** seçilirse hiçbir şey gönderilmez. Kararınızı ana ekran menüsünden istediğiniz zaman değiştirebilirsiniz; kapattığınızda gönderim durur ve kapalı dönemdeki kullanım sonradan yüklenmez.
+**Sürüm 1.3 — kimlikler arasında bağlantı kurmayan kullanım sayımları:** Daha önce paylaşımı kapattıysanız bu seçiminiz korunur. App Store mağaza bölgesi AB/AEA, Birleşik Krallık veya İsviçre ise, ya da belirlenemiyorsa mevcut onay akışı sürer. Diğer mağaza bölgelerinde, henüz seçim yapmamış kullanıcılar için kalıcı analitik kimliği göndermeyen sayımlar varsayılan açıktır; ana ekranda bilgi verilir ve ana ekran menüsünden kapatılabilir. Bölge yalnız cihazda bu kararı vermek için kullanılır, analitiğe gönderilmez; arayüz dili bölge yerine kullanılmaz. Her olayın farklı rastgele kimliği vardır; kurulum, oturum ve tur kimlikleri, kurulum tarihleri, cihaz modeli, işletim sistemi, saat dilimi ve ekran boyutu gönderilmez. Bu sayımlar aynı kişinin günler arasındaki hareketlerini birleştirmez. Olay türü, uygulama sürümü, arayüz dili, seviye, içerik, toplu sonuçlar ve aktif süre gibi kullanım bilgileri gönderilebilir. Açıkça onaylanan analitik aşağıdaki kuruluma özgü kimlikle çalışmaya devam eder. Yeni olaylar karşılama adımları, ilk çarktan açıkça ayrılma (tur sürdürülebilir) ve Plus ekranının kapanmasıdır. Uygulamayı arka plana almak terk sayılmaz. Ağ bağlantısı sağlayıcının IP adresini teknik olarak almasını gerektirir; IP saklamama ayarı kalıcı kimlik bulunmamasından ayrı bir korumadır.
+
+**Onaylı analitik (1.1/1.2 ve 1.3’te açıkça onay verenler):** Nerola, uygulamayı geliştirmek için PostHog (PostHog Inc., Avrupa Birliği'nde barındırılan proje) ile ürün analitiği toplayabilir. Bu yalnız uygulama içindeki "Nerola'yı geliştirmemize yardım et" ekranında **Kullanım verisi paylaş** seçeneğini onaylamanız hâlinde başlar; karar verilene kadar ve **Paylaşma** seçilirse hiçbir şey gönderilmez. Kararınızı ana ekran menüsünden istediğiniz zaman değiştirebilirsiniz; kapattığınızda gönderim durur ve kapalı dönemdeki kullanım sonradan yüklenmez.
 
 Gönderilenler: oturum başlangıcı, karşılama ve seviye seçimi, bir çarkın/bölümün/hikâyenin/günlük çarkın/arkadaş yarışının başlatılıp bitirilmesi (içerik kimliği, tekrar oynama, aktif süre ve toplu doğru/yanlış/pas sayısı), Plus teklifinin gösterilmesi ve satın alma sonucu (başlatıldı, beklemede, iptal, hata kategorisi, doğrulanmış başarı, geri yükleme), davet bağlantısının açılması; ayrıca uygulama sürümü, işletim sistemi sürümü, cihaz modeli, arayüz dili, saat dilimi ve ekran boyutu gibi teknik bağlam. Bu veriler kuruluma özgü **rastgele bir analitik kimliğiyle** ilişkilendirilir; bu kimlik sizi doğrudan tanımlamaz ama kalıcı olduğu için tamamen anonim veri sayılmaz. Paylaşımı kapatıp yeniden açarsanız yeni bir kimlik üretilir.
 

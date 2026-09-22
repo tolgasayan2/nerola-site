@@ -6,7 +6,7 @@ title: Nerola Privacy Policy
 
 [Türkçe sürüm](./gizlilik)
 
-Effective date: 15 September 2026
+Effective date: 23 September 2026
 Data controller: Tolga Sayan (individual developer; App Store seller name)
 Contact: tolgasayan@icloud.com
 
@@ -46,7 +46,9 @@ Nerola shows no ads, shares no data with ad networks and does not track you acro
 
 **Version 1.0:** The app has no usage-analytics or crash-reporting service of its own; your in-game behaviour, answers and voice are never sent to an analytics service. The only exception is the purchase providers in section 4: purchase and offer-screen data are also declared under the "Analytics" purpose in the App Store privacy label.
 
-**From version 1.1 — usage analytics (only with your permission):** To improve the app, Nerola can collect product analytics with PostHog (PostHog Inc., project hosted in the European Union). This starts only if you choose **Share usage data** on the in-app "Help us improve Nerola" screen; until you decide, and if you choose **Don't share**, nothing is sent. You can change your decision at any time from the home-screen menu; switching it off stops sending, and usage from the period it was off is never uploaded later.
+**Version 1.3 — unlinked usage counts:** A previous decision to switch sharing off is preserved. The existing consent flow remains for App Store storefronts in the EU/EEA, United Kingdom and Switzerland, and when the storefront is unknown. In other storefronts, usage counts without a persistent analytics identity are on by default for people who have not made a choice. A home-screen notice explains this and the home menu can turn it off. The storefront is used only on-device for this decision and is not sent; interface language is not used as a location. Each event has a different random identifier. Installation, session and run identifiers, installation dates, device model, operating system, time zone and screen dimensions are excluded. These counts do not link a person's activity across days. They may include event type, app version, interface language, level, content, aggregate results and active time. Explicitly consented analytics continues to use the installation-specific identifier described below. New events record onboarding steps, explicitly leaving the first wheel (which can be resumed), and closing a Plus offer. Backgrounding is not treated as abandonment. Network requests still technically expose an IP address to the provider; discarding IP data is a separate safeguard from the absence of persistent identifiers.
+
+**Consented analytics (1.1/1.2 and people who explicitly consent in 1.3):** To improve the app, Nerola can collect product analytics with PostHog (PostHog Inc., project hosted in the European Union). This starts only if you choose **Share usage data** on the in-app "Help us improve Nerola" screen; until you decide, and if you choose **Don't share**, nothing is sent. You can change your decision at any time from the home-screen menu; switching it off stops sending, and usage from the period it was off is never uploaded later.
 
 What is sent: session start, welcome and level choice, the start and completion of a wheel, chapter, story, daily wheel or friend race (content identifier, replay flag, active time and aggregate correct/wrong/pass counts), the Plus offer being shown and the purchase outcome (started, pending, cancelled, failure category, verified success, restore), an invite link being opened; plus technical context such as app version, OS version, device model, interface language, time zone and screen size. This data is tied to a **random, install-specific analytics identifier**; it does not identify you directly, but because it is persistent it is not fully anonymous data. Switching sharing off and on again creates a new identifier.
 
