@@ -6,8 +6,8 @@ title: Nerola Gizlilik Politikası
 
 [English version](./privacy)
 
-Yürürlük tarihi: 2 Ekim 2026 (önceki sürüm: 24 Eylül 2026)
-Son güncelleme: 2 Ekim 2026 — 4.0 sürümüyle gelen Nerola Koç (5. bölüm) eklendi.
+Yürürlük tarihi: 14 Ekim 2026 (önceki sürüm: 2 Ekim 2026)
+Son güncelleme: 14 Ekim 2026 — kendi reklamlarımızı Meta ile nasıl ölçtüğümüz eklendi (6. bölüm).
 Veri sorumlusu: Tolga Sayan (bireysel geliştirici; App Store satıcı adı)
 İletişim: tolgasayan@icloud.com
 
@@ -86,7 +86,10 @@ Nerola Koç, 4.0 sürümüyle gelen, yapay zekâ destekli bir İngilizce konuşm
 **Yaş.** Nerola Koç 13 yaş ve üzeri kullanıcılar için tasarlanmıştır.
 
 ## 6. Reklam, izleme ve analitik
-Nerola reklam göstermez, reklam ağlarıyla veri paylaşmaz ve sizi uygulamalar veya web siteleri arasında izlemez (Apple'ın "izleme" tanımı anlamında).
+Nerola uygulama içinde reklam göstermez ve reklam kimliğinizi kullanmaz. Bir reklam şirketine ulaşan tek veri, aşağıda anlatılan Meta ile reklam ölçümüdür ve yalnızca kullanım verisi paylaşımı açıkken gönderilir.
+
+**Kendi reklamlarımızı ölçmek (Meta), bunu ekleyen sürümden itibaren:** Nerola'nın reklamlarını Facebook ve Instagram'da veriyoruz. Bu reklamların kuruluma dönüşüp dönüşmediğini görmek için uygulamada Meta SDK'sı bulunur (AB'de Meta Platforms Ireland Ltd.; AB dışında Meta Platforms, Inc.). Uygulama reklam kimliğinizi (IDFA) hiçbir zaman okumaz ve izleme izni istemez. Yalnızca kullanım verisi paylaşımı açıkken (AB/AEA, Birleşik Krallık ve İsviçre'de siz onay verdikten sonra; diğer yerlerde varsayılan olarak açık, yukarıda anlatıldığı gibi kapatabilirsiniz) SDK Meta'ya üç olay gönderir: uygulamanın açıldığını, ilk dersinizi bitirdiğinizi ve abone olduğunuzu. Bunlarla birlikte SDK'nın saymak için ihtiyaç duyduğu teknik veriler gider: uygulama sürümü, cihaz modeli, işletim sistemi, dil, saat dilimi, SDK'nın oluşturduğu kuruluma özel bir kimlik ve teknik olarak isteğin IP adresi. Ad, e-posta, kayıt, cümle veya ders içeriği gönderilmez. Kullanım verisi paylaşmıyorsanız Meta'ya hiçbir şey gönderilmez: uygulama yalnızca kurulumu cihazınızda Apple'ın SKAdNetwork'üne kaydeder ve Apple, bir reklamın kuruluma yol açıp açmadığını sizi tanımlamadan, toplu olarak Meta'ya bildirir. Paylaşımı kapattığınız andan itibaren Meta olayları durur. Sağlayıcı bilgisi: [Meta gizlilik politikası](https://www.facebook.com/privacy/policy) ve [Meta İş Araçları şartları](https://www.facebook.com/legal/technology_terms).
+
 
 **Sürüm 1.0:** Uygulamanın kendi kullanım analitiği veya çökme raporlama hizmeti yoktur; oyun içi davranışınız, cevaplarınız veya sesiniz hiçbir analitik servise gönderilmez. Tek istisna 4. bölümdeki satın alma sağlayıcılarıdır: satın alma ve teklif ekranı verileri App Store gizlilik beyanında "Analitik" amacıyla da bildirilir.
 

@@ -6,8 +6,8 @@ title: Nerola Privacy Policy
 
 [Türkçe sürüm](./gizlilik)
 
-Effective date: October 2, 2026 (previous version: September 24, 2026)
-Last updated: October 2, 2026 — added Nerola Coach (section 5), introduced in version 4.0.
+Effective date: October 14, 2026 (previous version: October 2, 2026)
+Last updated: October 14, 2026 — added how we measure our own ads with Meta (section 6).
 Data controller: Tolga Sayan (individual developer; App Store seller name)
 Contact: tolgasayan@icloud.com
 
@@ -77,7 +77,10 @@ Nerola Coach, introduced in version 4.0, is an AI-powered English speaking coach
 **Age.** Nerola Coach is designed for users aged 13 and over.
 
 ## 6. Advertising, tracking and analytics
-Nerola shows no ads, shares no data with ad networks and does not track you across apps or websites (in the sense of Apple's "tracking" definition).
+Nerola shows no ads inside the app and does not use your advertising identifier. The only data that reaches an advertising company is the ad measurement with Meta described below, and only while you share usage data.
+
+**Measuring our own ads (Meta), from the version that adds it:** We advertise Nerola on Facebook and Instagram. To learn whether those ads lead to installs, the app includes the Meta SDK (Meta Platforms Ireland Ltd.; outside the EU, Meta Platforms, Inc.). The app never reads your advertising identifier (IDFA) and never asks for tracking permission. Only while you share usage data (after you agree in the EU/EEA, United Kingdom and Switzerland; by default elsewhere, where you can switch it off as described above) does the SDK send Meta three events: that the app was opened, that you finished your first lesson and that you subscribed. With them the SDK sends the technical data it needs to count them: app version, device model, operating system, language, time zone, an installation-specific identifier the SDK creates, and, technically, the IP address of the request. No names, e-mail, recordings, sentences or lesson content are sent. If you do not share usage data, nothing is sent to Meta: the app only registers the installation with Apple's SKAdNetwork on your device, and Apple reports to Meta in aggregate whether an ad led to the install, without identifying you. Switching sharing off stops Meta events from that moment. Provider information: [Meta privacy policy](https://www.facebook.com/privacy/policy) and [Meta Business Tools terms](https://www.facebook.com/legal/technology_terms).
+
 
 **Version 1.0:** The app has no usage-analytics or crash-reporting service of its own; your in-game behaviour, answers and voice are never sent to an analytics service. The only exception is the purchase providers in section 4: purchase and offer-screen data are also declared under the "Analytics" purpose in the App Store privacy label.
 
