@@ -6,8 +6,8 @@ title: Nerola Gizlilik Politikası
 
 [English version](./privacy)
 
-Yürürlük tarihi: 14 Ekim 2026 (önceki sürüm: 2 Ekim 2026)
-Son güncelleme: 14 Ekim 2026 — kendi reklamlarımızı Meta ile nasıl ölçtüğümüz eklendi (6. bölüm).
+Yürürlük tarihi: 15 Ekim 2026 (önceki sürüm: 14 Ekim 2026)
+Son güncelleme: 15 Ekim 2026 — koç, tanışmada isteğe bağlı yazdığınız adla size seslenebilir (5. bölüm).
 Veri sorumlusu: Tolga Sayan (bireysel geliştirici; App Store satıcı adı)
 İletişim: tolgasayan@icloud.com
 
@@ -63,7 +63,7 @@ Nerola Koç, 4.0 sürümüyle gelen, yapay zekâ destekli bir İngilizce konuşm
 
 **Mikrofon.** Mikrofon iOS'un izniyle ve yalnız mikrofon düğmesine basılı tuttuğunuz sürece açıktır (VoiceOver kullanırken düğmeyle başlatıp durdurursunuz); bir kayıt en fazla 60 saniyedir. İsterseniz yazarak da konuşabilirsiniz. Kayıt, sunucumuza gönderildikten sonra cihazınızdan silinir; gönderim başarısız olsa da silinir.
 
-**Hangi veriler, kime gider.** Koç istekleri Cloudflare Workers üzerinde çalışan sunucumuza gelir; sunucu bunları aşağıdaki sağlayıcılara kendi hesabıyla iletir. Sağlayıcılara kimliğiniz, adınız veya e-postanız gönderilmez.
+**Hangi veriler, kime gider.** Koç istekleri Cloudflare Workers üzerinde çalışan sunucumuza gelir; sunucu bunları aşağıdaki sağlayıcılara kendi hesabıyla iletir. Sağlayıcılara kimliğiniz ve e-postanız gönderilmez. Tanışmada bir ad yazarsanız, yapay zekâ partnerinin ve koçun size adınızla seslenebilmesi (ve sesli selamlamada söylemesi) için her ders isteğiyle sunucumuza ve OpenAI'a gönderilir; sunucumuz adı saklamaz. Profil'de 'Tanışmayı tekrar aç' ile değiştirebilirsiniz.
 - Ses kaydınız: yazıya çevrilmek için ElevenLabs'e (Scribe) gönderilir. ElevenLabs'e ulaşılamazsa veya kullanılamıyorsa aynı kayıt bu iş için OpenAI'a gönderilir.
 - Konuşmadaki cümleleriniz, son konuşma geçmişi (en fazla son 12 mesaj), seçtiğiniz açıklama dili, düzey, senaryo ve daha önce çalıştığınız hata türleri: Nero'nun ve karakterlerin cevabı, dilbilgisi düzeltmesi ve "Doğrusunu öğren" metni için OpenAI'a gönderilir.
 - Mesleğinize özel mülakat için yazdığınız meslek, deneyim düzeyi ve isteğe bağlı iş ilanı metni; "Kendi senaryonu yaz" için anlattığınız durum: soru planı veya canlandırma kartı hazırlamak için OpenAI'a gönderilir.
@@ -75,7 +75,7 @@ Nerola Koç, 4.0 sürümüyle gelen, yapay zekâ destekli bir İngilizce konuşm
 
 **Sağlayıcıların saklaması.** OpenAI'a giden metin üretimi istekleri kayıt (store) seçeneği kapalı gönderilir. OpenAI, API üzerinden gönderilen verileri kendi koşullarına göre varsayılan olarak model eğitiminde kullanmaz; kötüye kullanım denetimi için sınırlı süre saklayabilir. ElevenLabs ses kayıtlarını kendi politikasına göre işler ve saklayabilir. Bkz. [OpenAI gizlilik politikası](https://openai.com/policies/privacy-policy), [ElevenLabs gizlilik politikası](https://elevenlabs.io/privacy-policy), [Cloudflare gizlilik politikası](https://www.cloudflare.com/privacypolicy/).
 
-**Cihazınızda kalanlar.** Konuşma geçmişiniz, yazıya çevrilmiş cümleleriniz ve düzeltmeleriniz cihazınızdaki koç klasöründe tutulur; bu klasör iCloud ve cihaz yedeklemesine dahil edilmez. Tekrar takviminiz, mülakat planınız, son yazdığınız senaryolar ve tanışmada verdiğiniz ad, seviye, hedef ve hatırlatma saati gibi tercihler uygulama ayarlarında cihazınızda saklanır; yedekleme açıksa bunlar Apple'ın cihaz yedeğine dahil olabilir. Tanışmada yazdığınız ad sunucumuza gönderilmez. Nero'nun ve karakterlerin seslendirilmiş cevapları, yeniden çalınabilmesi için cihazın önbelleğinde tutulur. Tanışma adımlarındaki bazı Nero cümleleri önceden üretilip uygulamaya eklenmiştir ve ağ olmadan çalınır.
+**Cihazınızda kalanlar.** Konuşma geçmişiniz, yazıya çevrilmiş cümleleriniz ve düzeltmeleriniz cihazınızdaki koç klasöründe tutulur; bu klasör iCloud ve cihaz yedeklemesine dahil edilmez. Tekrar takviminiz, mülakat planınız, son yazdığınız senaryolar ve tanışmada verdiğiniz ad, seviye, hedef ve hatırlatma saati gibi tercihler uygulama ayarlarında cihazınızda saklanır; yedekleme açıksa bunlar Apple'ın cihaz yedeğine dahil olabilir. Nero'nun ve karakterlerin seslendirilmiş cevapları, yeniden çalınabilmesi için cihazın önbelleğinde tutulur. Tanışma adımlarındaki bazı Nero cümleleri önceden üretilip uygulamaya eklenmiştir ve ağ olmadan çalınır.
 
 **Kişisel bilgi paylaşma.** Konuşmalarda gerçek adınızı, adresinizi, telefonunuzu, şirket sırlarını veya sağlık bilgilerinizi paylaşmamanızı öneririz; senaryolar kurgusal ad ve bilgilerle çalışır.
 
@@ -108,7 +108,7 @@ Gönderilmeyenler: yazdığınız cevaplar, Nerola Koç'taki ses kayıtları ve 
 Kararınızı verene kadar en fazla 50 kullanım olayı yalnız o açık oturumun belleğinde bekleyebilir; onaylarsanız gönderilir, reddederseniz veya uygulama kapanırsa silinir.
 
 ## 7. Çocuklar
-Nerola genel kitleye yöneliktir ve 13 yaşın altındaki çocuklara yönelik tasarlanmamıştır. Uygulama e-posta veya konum istemez. İsteğe bağlı arkadaş oyunlarında görünen bir ad istenir; takma ad yeterlidir. 4. bölümdeki rastgele kimliğin bir çocuğa ait olduğunu düşünüyorsanız 8. bölümdeki adrese yazın; kaydı sildiririz. Nerola Koç 13 yaş ve üzeri kullanıcılar için tasarlanmıştır; koç ad, e-posta veya konum istemez.
+Nerola genel kitleye yöneliktir ve 13 yaşın altındaki çocuklara yönelik tasarlanmamıştır. Uygulama e-posta veya konum istemez. İsteğe bağlı arkadaş oyunlarında görünen bir ad istenir; takma ad yeterlidir. 4. bölümdeki rastgele kimliğin bir çocuğa ait olduğunu düşünüyorsanız 8. bölümdeki adrese yazın; kaydı sildiririz. Nerola Koç 13 yaş ve üzeri kullanıcılar için tasarlanmıştır; koç yalnız isteğe bağlı bir ilk ad sorar; e-posta veya konum istemez.
 
 ## 8. Haklarınız
 Uygulama kişisel verilerinizi ad veya e-posta içeren bir hesapla ilişkilendirmediği için "cihazınızdaki verileri silme" işlemini uygulamayı silerek kendiniz yapabilirsiniz. Nerola Koç verilerini (cihazdaki kayıtlar ve sunucudaki koç hesabı) uygulamayı silmeden önce Profil → "Koç verilerimi sil" ile silin; uygulamayı silmek sunucudaki koç hesabını silmez (bkz. 5. bölüm). Satın alma kaydınızla ilgili talepler (erişim, silme) için tolgasayan@icloud.com adresine rastgele kimliğinizle başvurabilirsiniz; uygulama bu kimliği şu an ekranda göstermediği için başvurunuza satın alma tarihini ve elinizdeki App Store makbuz bilgilerini ekleyin. Kaydı bu bilgilerle eşleştirmeye çalışırız; eşleştirme her durumda mümkün olmayabilir, sonucu size bildiririz. Bu politika 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında hazırlanmıştır; Avrupa Ekonomik Alanı veya Birleşik Krallık'ta bulunuyorsanız GDPR/UK GDPR kapsamındaki erişim, düzeltme, silme ve itiraz haklarınızı da aynı adres üzerinden kullanabilirsiniz.

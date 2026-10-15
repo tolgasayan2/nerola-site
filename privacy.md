@@ -6,8 +6,8 @@ title: Nerola Privacy Policy
 
 [Türkçe sürüm](./gizlilik)
 
-Effective date: October 14, 2026 (previous version: October 2, 2026)
-Last updated: October 14, 2026 — added how we measure our own ads with Meta (section 6).
+Effective date: October 15, 2026 (previous version: October 14, 2026)
+Last updated: October 15, 2026 — the coach can address you by the optional first name you enter (section 5).
 Data controller: Tolga Sayan (individual developer; App Store seller name)
 Contact: tolgasayan@icloud.com
 
@@ -54,7 +54,7 @@ Nerola Coach, introduced in version 4.0, is an AI-powered English speaking coach
 
 **Microphone.** The microphone is used only with iOS permission and only while you hold the microphone button (with VoiceOver you start and stop it with the button); one recording lasts at most 60 seconds. You can also type instead of speaking. The recording is deleted from your device after it is sent to our server, and also if sending fails.
 
-**What is sent, and to whom.** Coach requests go to our server running on Cloudflare Workers, which forwards them to the providers below under its own account. Your identifier, name or e-mail address are not sent to the providers.
+**What is sent, and to whom.** Coach requests go to our server running on Cloudflare Workers, which forwards them to the providers below under its own account. Your identifier and e-mail address are not sent to the providers. If you enter a first name during onboarding, it is sent with each lesson request to our server and to OpenAI only so that the AI partner and the coach can address you by it (and say it in the spoken greeting); our server does not store it. You can change it with 'Restart introduction' in Profile.
 - Your recording: to ElevenLabs (Scribe) for speech-to-text. If ElevenLabs cannot be reached or is unavailable, the same recording is sent to OpenAI for this purpose.
 - Your sentences in the conversation, recent conversation history (at most the last 12 messages), your chosen explanation language, level, scenario and the error types you practised before: to OpenAI for Nero's and the characters' replies, grammar corrections and the "Learn the correct way" text.
 - For job-specific interview practice, the job, seniority and optional job posting you enter; for "Write your own scenario", the situation you describe: to OpenAI to build the question plan or the roleplay card.
@@ -66,7 +66,7 @@ Nerola Coach, introduced in version 4.0, is an AI-powered English speaking coach
 
 **Provider retention.** Text-generation requests to OpenAI are sent with the storage ("store") option disabled. Under its own terms, OpenAI does not use data sent through its API to train models by default; it may keep it for a limited time for abuse monitoring. ElevenLabs processes, and may retain, recordings under its own policy. See the [OpenAI privacy policy](https://openai.com/policies/privacy-policy), [ElevenLabs privacy policy](https://elevenlabs.io/privacy-policy) and [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
 
-**On your device.** Your conversation history, transcribed sentences and corrections are kept in the coach folder on your device, which is excluded from iCloud and device backups. Your review schedule, interview plan, recent custom scenarios and preferences such as the name you gave during onboarding, level, goal and reminder time are stored in the app's settings on your device; if backup is on, they may be included in Apple's device backup. The name you enter during onboarding is not sent to our server. Spoken replies from Nero and the characters are cached on the device so they can be replayed. Some of Nero's onboarding lines are generated in advance, ship with the app and play without a network connection.
+**On your device.** Your conversation history, transcribed sentences and corrections are kept in the coach folder on your device, which is excluded from iCloud and device backups. Your review schedule, interview plan, recent custom scenarios and preferences such as the name you gave during onboarding, level, goal and reminder time are stored in the app's settings on your device; if backup is on, they may be included in Apple's device backup. Spoken replies from Nero and the characters are cached on the device so they can be replayed. Some of Nero's onboarding lines are generated in advance, ship with the app and play without a network connection.
 
 **Personal information.** We recommend not sharing your real name, address, phone number, company secrets or health information in conversations; scenarios work with fictional names and details.
 
@@ -99,7 +99,7 @@ What is never sent: your typed answers, Nerola Coach recordings and conversation
 Before you decide, up to 50 usage events may wait in memory for that running app session only. They are sent if you agree and discarded if you decline or the app closes.
 
 ## 7. Children
-Nerola is intended for a general audience and is not designed for children under 13. The app does not ask for an email address or location. Optional friend games ask for a display name; a nickname is sufficient. If you believe the random identifier described in section 4 belongs to a child, write to the address in section 8 and we will have the record deleted. Nerola Coach is designed for users aged 13 and over; the coach does not ask for a name, e-mail address or location.
+Nerola is intended for a general audience and is not designed for children under 13. The app does not ask for an email address or location. Optional friend games ask for a display name; a nickname is sufficient. If you believe the random identifier described in section 4 belongs to a child, write to the address in section 8 and we will have the record deleted. Nerola Coach is designed for users aged 13 and over; the coach asks only for an optional first name; it does not ask for an e-mail address or location.
 
 ## 8. Your rights
 Because the app does not associate your data with an account containing a name or e-mail address, you can delete on-device data yourself by deleting the app. Delete Nerola Coach data (records on your device and the coach account on our server) with Profile → "Delete my coach data" before deleting the app; deleting the app does not delete the coach account on our server (see section 5). For requests about your purchase record (access, deletion), contact tolgasayan@icloud.com with your random identifier. Because the app does not currently display this identifier, include your purchase date and the details from your App Store receipt. We will try to match the record with this information; a match is not possible in every case, and we will tell you the outcome. This policy is written under Türkiye's Personal Data Protection Law (KVKK, Law No. 6698); if you are in the European Economic Area or the United Kingdom, you can exercise your GDPR/UK GDPR rights of access, rectification, erasure and objection through the same address.
